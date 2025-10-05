@@ -1,0 +1,26 @@
+{
+  "dataset_name": "Primary Enrollment and GDP per Capita (2001\u20132020)",
+  "country": "United States",
+  "source_notes": [
+    "Primary Enrollment: World Bank Indicator SE.PRM.ENRL",
+    "GDP per capita (current US$): World Bank Indicator NY.GDP.PCAP.CD",
+    "Years: 2001\u20132020; NaN retained if unavailable"
+  ],
+  "columns": [
+    {
+      "name": "Year",
+      "dtype": "int",
+      "description": "Calendar year (2001\u20132020)"
+    },
+    {
+      "name": "Primary Enrollment",
+      "dtype": "float",
+      "description": "Number of primary school enrollments (SE.PRM.ENRL)"
+    },
+    {
+      "name": "GDP",
+      "dtype": "float",
+      "description": "GDP per capita (current US$), NY.GDP.PCAP.CD"
+    }
+  ]
+}
